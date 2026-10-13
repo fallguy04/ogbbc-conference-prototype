@@ -1,13 +1,51 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "meta": { "title": "Annual Conference prototype", "author": "ogbbc.org webmasters" },
+  "meta": {
+    "title": "Annual Conference prototype",
+    "author": "ogbbc.org webmasters"
+  },
   "landingPage": "/annual-conference/",
-  "preferredVersions": { "php": "8.3", "wp": "latest" },
-  "features": { "networking": true },
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
   "steps": [
-    { "step": "defineWpConfigConsts", "consts": { "OGC_DEV": true } },
-    { "step": "setSiteOptions", "options": { "permalink_structure": "/%postname%/", "blogname": "Old German Baptist Brethren Church, New Conference" } },
-    { "step": "installTheme", "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogbbc-standin.zip" }, "options": { "activate": true } },
-    { "step": "installPlugin", "pluginData": { "resource": "url", "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogc-conference.zip" }, "options": { "activate": true } }
+    {
+      "step": "defineWpConfigConsts",
+      "consts": {
+        "OGC_DEV": true,
+        "OGC_PROTOTYPE": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "permalink_structure": "/%postname%/",
+        "blogname": "Old German Baptist Brethren Church, New Conference"
+      }
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogbbc-standin.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogc-conference.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    }
   ]
 }
