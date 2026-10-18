@@ -13,7 +13,7 @@ The link runs the whole site inside your own web browser, through WordPress Play
 
 ## The tour
 
-A small card in the corner walks through nine scenes, one at a time: the Conference page, registering, Your sign-ups, volunteering, the guide on a phone during Conference, the printed schedule, the Committee of Arrangements' home, Lodging's rooms, and the webmasters' view. Each scene signs in the right made-up person and shows the date that fills the screen. Next and Back move between them; **Scenes** lists them all and lets you see a page as someone else. The card can be closed and opened again.
+A small card in the corner walks through ten scenes, one at a time: the Conference page, registering, Your sign-ups, volunteering, the guide on a phone during Conference, the printed schedule, the Committee of Arrangements' home, one household's record, Lodging's rooms, and the webmasters' view. Each scene signs in the right made-up person and shows the date that fills the screen. Next and Back move between them; **Scenes** lists them all and lets you see a page as someone else. The card can be closed and opened again.
 
 No email is ever sent from the prototype.
 
