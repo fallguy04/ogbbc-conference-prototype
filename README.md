@@ -1,9 +1,9 @@
 # Annual Conference prototype
 
-An early prototype of the Annual Conference tools for ogbbc.org, built as a WordPress plugin. It is for the webmasters and the Committee of Arrangements to look at and talk over.
+A working demo of the Annual Conference tools for ogbbc.org, built as a WordPress plugin. It is for the webmasters and the Committee of Arrangements to look at and talk over.
 
 - **Everyone in it is made up.** Every person, household, phone number and count is a sample. It is not the real site, and nothing in it is real data.
-- **It is early.** Many details are still being decided. What you see is a rough draft of how things could work, not a decision.
+- **The details are the committees' to decide.** What you see is one way it could work, to be shaped by your input.
 
 ## Open it
 
@@ -13,9 +13,9 @@ The link runs the whole site inside your own web browser, through WordPress Play
 
 ## The tour
 
-A small card in the corner walks through ten scenes, one at a time: the Conference page, registering, Your sign-ups, volunteering, the guide on a phone during Conference, the printed schedule, the Committee of Arrangements' home, one household's record, Lodging's rooms, and the webmasters' view. Each scene signs in the right made-up person and shows the date that fills the screen. Next and Back move between them; **Scenes** lists them all and lets you see a page as someone else. The card can be closed and opened again.
+A small card at the foot of the screen walks through ten scenes, one at a time: the Conference page when registration opens and a week before, a family registering, volunteering, the guide during Conference, the printed schedule, the Committee of Arrangements' home, the households that have registered, Lodging's rooms, and the webmasters' view. Each scene signs in the right made-up person and shows the date that fills the screen. Next and Back move between them; **Scenes** lists them all and lets you see a page as someone else. The card can be closed and opened again.
 
-No email is ever sent from the prototype.
+No email is ever sent from the prototype: where the site would email a sign-in code, the prototype shows it on screen. Phone numbers, texts and map links say what they would do on a phone instead of opening.
 
 ## What's in this folder
 

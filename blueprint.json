@@ -4,7 +4,7 @@
     "title": "Annual Conference prototype",
     "author": "ogbbc.org webmasters"
   },
-  "landingPage": "/annual-conference/dev-signout/?return=%2Fannual-conference%2F%3Fyear%3D2027%26as-of%3D2027-05-21T09%3A00%26tz%3DAmerica%2FIndiana%2FIndianapolis",
+  "landingPage": "/annual-conference/dev-signout/?return=%2Fannual-conference%2F%3Fyear%3D2027%26as-of%3D2027-03-02T09%3A00%26tz%3DAmerica%2FIndiana%2FIndianapolis",
   "preferredVersions": {
     "php": "8.3",
     "wp": "latest"
