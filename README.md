@@ -11,9 +11,13 @@ https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.github
 
 The link runs the whole site inside your own web browser, through WordPress Playground (a tool from WordPress.org). Nothing is installed on your computer, what you do stays in your browser, and it starts fresh each time you open the link. The first visit can take a minute to load.
 
-## The tour
+## Looking around
 
-A small card at the foot of the screen walks through ten scenes, one at a time: the Conference page when registration opens and a week before, a family registering, volunteering, the guide during Conference, the printed schedule, the Committee of Arrangements' home, the households that have registered, Lodging's rooms, and the webmasters' view. Each scene signs in the right made-up person and shows the date that fills the screen. Next and Back move between them; **Scenes** lists them all and lets you see a page as someone else. The card can be closed and opened again.
+Click around as you would on the real site. A small dark pill in the bottom right corner says which day you're looking at and who you are (`Mar 2 · Visitor`). Point at it, or tap it, to choose:
+
+- **When:** a day in the coming Conference's year: when it's announced, when registration opens, when the schedule is out, the week before, during Conference, and after. The whole site stays on that day as you click around.
+- **As:** a visitor, the Committee of Arrangements, Lodging, or a webmaster. Each opens the page that person would use.
+
 
 No email is ever sent from the prototype: where the site would email a sign-in code, the prototype shows it on screen. Phone numbers, texts and map links say what they would do on a phone instead of opening.
 
