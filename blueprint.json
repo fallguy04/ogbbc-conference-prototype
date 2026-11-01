@@ -17,7 +17,8 @@
       "step": "defineWpConfigConsts",
       "consts": {
         "OGC_DEV": true,
-        "OGC_PROTOTYPE": true
+        "OGC_PROTOTYPE": true,
+        "OGC_FEEDBACK_URL": "https://ogbbc-conference-feedback.vercel.app/api/feedback"
       }
     },
     {

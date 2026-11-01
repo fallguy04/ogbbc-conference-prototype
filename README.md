@@ -18,6 +18,7 @@ Click around as you would on the real site. A small dark pill in the bottom righ
 - **When:** a day in the coming Conference's year: when it's announced, when registration opens, when the schedule is out, the week before, during Conference, and after. The whole site stays on that day as you click around.
 - **As:** a visitor, the Committee of Arrangements, Lodging, or a webmaster. Each opens the page that person would use.
 
+- **Leave feedback** (the blue button beside the pill) takes a picture of the screen you're on; add your idea and your name, and tap the thing you mean if you like. A number beside it says how many ideas others have left on that screen: open it to read them, upvote, and reply. **All screens** shows every idea in one list.
 
 No email is ever sent from the prototype: where the site would email a sign-in code, the prototype shows it on screen. Phone numbers, texts and map links say what they would do on a phone instead of opening.
 
