@@ -20,7 +20,9 @@ Click around as you would on the real site. A small dark pill in the bottom righ
 
 - **Leave feedback** (beside the pill at the bottom) takes a picture of the screen you're on, a pop-up included; add your idea and your name, and tap the thing you mean if you like. The number beside it opens the board full screen: every screen with ideas, each screen's ideas by person, and each idea in full to upvote and reply to.
 
-No email is ever sent from the prototype: where the site would email a sign-in code, the prototype shows it on screen. Phone numbers, texts and map links say what they would do on a phone instead of opening.
+To try a form without typing your own details, press **Autofill** (a small dark pill beside Continue on Register, and at the top of a first-time volunteer's sign-up). It fills the step with a made-up household; Continue goes on. Type your own instead whenever you like.
+
+No email is ever sent from the prototype: where the site would email a sign-in code, the prototype shows it on screen (Autofill fills that in too). Phone numbers, texts and map links say what they would do on a phone instead of opening.
 
 ## What's in this folder
 
