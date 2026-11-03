@@ -32,12 +32,12 @@
     {
       "step": "installTheme",
       "themeData": { "resource": "url", "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogbbc-standin.zip" },
-      "options": { "activate": true }
+      "options": { "activate": true, "humanReadableName": "ogbbc.org" }
     },
     {
       "step": "installPlugin",
       "pluginData": { "resource": "url", "url": "https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/ogc-conference.zip" },
-      "options": { "activate": true }
+      "options": { "activate": true, "humanReadableName": "OGBBC Annual Conference" }
     }
   ]
 }
