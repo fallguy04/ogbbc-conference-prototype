@@ -18,7 +18,7 @@ Click around as you would on the real site. A small dark pill in the bottom righ
 - **When:** a day in the coming Conference's year: when it's announced, when registration opens, when the schedule is out, the week before, during Conference, and after. The whole site stays on that day as you click around.
 - **As:** a visitor, the Committee of Arrangements, Lodging, or a webmaster. Each opens the page that person would use.
 
-- **Leave feedback** (beside the pill at the bottom) takes a picture of the screen you're on, a pop-up included; add your idea and your name, and tap the thing you mean if you like. The number beside it opens the board full screen: every screen with ideas, each screen's ideas by person, and each idea in full to upvote and reply to.
+- **Leave feedback** (beside the pill at the bottom) takes a picture of the screen you're on, a pop-up included; add your idea and your name, and tap the thing you mean if you like. The number beside it opens the board: the feed of ideas, newest first, with every screen of the demo beside it to pick from, and Upvote and Reply on each idea.
 
 To try a form without typing your own details, press **Autofill** (a small dark pill beside Continue on Register, and at the top of a first-time volunteer's sign-up). It fills the step with a made-up household; Continue goes on. Type your own instead whenever you like.
 
