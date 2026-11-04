@@ -13,11 +13,11 @@ The link runs the whole site inside your own web browser, through WordPress Play
 
 ## Looking around
 
-Click around as you would on the real site. A small dark pill in the bottom right corner says which day you're looking at and who you are (`Mar 2 · Visitor`). Point at it, or tap it, to choose:
+Click around as you would on the real site. A small dark pill in the bottom right corner says where you are (`Conference page · Mar 2`). Point at it, or tap it, to choose:
 
-- **When:** a day in the coming Conference's year: when it's announced, when registration opens, when the schedule is out, the week before, during Conference, and after. The whole site stays on that day as you click around.
-- **As:** a visitor, the Committee of Arrangements, Lodging, or a webmaster. Each opens the page that person would use.
-
+- **Go to:** the Conference page, Register, Volunteer, Tournaments, the guide, or the committees' side.
+- **Day** (on the Conference page and the guide): when it's announced, when registration opens, when the schedule is out, the week before, during Conference, and after. Registering and volunteering are always open.
+- **Signed in as** (on the committees' side): the Committee of Arrangements, Lodging, or a webmaster.
 - **Leave feedback** (beside the pill at the bottom) takes a picture of the screen you're on, a pop-up included; add your idea and your name, and tap the thing you mean if you like. The number beside it opens the board: the feed of ideas, newest first, with every screen of the demo beside it to pick from, and Upvote and Reply on each idea.
 
 To try a form without typing your own details, press **Autofill** (a small dark pill beside Continue on Register, and at the top of a first-time volunteer's sign-up). It fills the step with a made-up household; Continue goes on. Type your own instead whenever you like.
