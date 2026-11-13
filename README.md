@@ -7,9 +7,16 @@ A working demo of the Annual Conference tools for ogbbc.org, built as a WordPres
 
 ## Open it
 
+**The demo has moved:** https://ogbbc-conference.vercel.app/annual-conference/
+
+The Playground link below now shows a page with an Open the demo button that goes there. The new site has everything this prototype had, and more.
+
 https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/blueprint.json
 
-The link runs the whole site inside your own web browser, through WordPress Playground (a tool from WordPress.org). Nothing is installed on your computer, what you do stays in your browser, and it starts fresh each time you open the link. The first visit can take a minute to load.
+The old WordPress version, frozen on Nov 10, 2026, is kept for reference:
+https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/fallguy04/ogbbc-conference-prototype/main/blueprint-prototype.json
+
+It runs the whole site inside your own web browser, through WordPress Playground (a tool from WordPress.org). The first visit can take a minute to load.
 
 ## Looking around
 
@@ -26,6 +33,7 @@ No email is ever sent from the prototype: where the site would email a sign-in c
 
 ## What's in this folder
 
-- `blueprint.json`: what WordPress Playground sets up (the plugin, a stand-in for the site's theme, and the sample data).
+- `blueprint.json`: the page that sends the old link to the new demo.
+- `blueprint-prototype.json`: the old prototype (the plugin, a stand-in for the site's theme, and the sample data).
 - `ogc-conference.zip`: the plugin.
 - `ogbbc-standin.zip`: a stand-in for the ogbbc.org theme's header and footer.
