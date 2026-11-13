@@ -1,19 +1,10 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "meta": {
-    "title": "Annual Conference prototype (moved)",
-    "author": "ogbbc.org webmasters"
-  },
-  "landingPage": "/",
-  "preferredVersions": {
-    "php": "8.3",
-    "wp": "latest"
-  },
+  "meta": { "title": "Annual Conference (moved)", "author": "ogbbc.org webmasters" },
+  "landingPage": "/index.php",
+  "preferredVersions": { "php": "8.3", "wp": false },
   "steps": [
-    {
-      "step": "writeFile",
-      "path": "/wordpress/wp-content/mu-plugins/ogc-forward.php",
-      "data": "<?php\n// The Conference demo moved (Nov 2026). Every page of this Playground sends the visitor there.\n// To change the destination later (for example to a church domain), change only $u.\nadd_action('init', function () {\n\tif (defined('WP_CLI') || (defined('REST_REQUEST') && REST_REQUEST)) return;\n\t$u = 'https://ogbbc-conference.vercel.app/annual-conference/';\n\tnocache_headers();\n\theader('Content-Type: text/html; charset=utf-8');\n\techo '<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Annual Conference</title>'\n\t. '<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#F3F2EB;color:#333;font:17px/1.5 \"Droid Serif\",\"Noto Serif\",Georgia,serif;text-align:center;padding:0 16px}'\n\t. 'h1{font-size:24px;font-weight:400;margin:0 0 6px}p{margin:0 0 22px;color:#555}a{display:inline-block;min-height:44px;line-height:44px;padding:0 24px;background:#C0AB85;color:#241d10;text-decoration:none;border-radius:4px;font:600 13px/44px system-ui,sans-serif;letter-spacing:1.2px;text-transform:uppercase}a:focus-visible{outline:2px solid #76623F;outline-offset:3px}</style>'\n\t. '</head><body><main><h1>Annual Conference</h1><p>The demo has moved.</p><a id=\"go\" href=\"' . esc_url($u) . '\" target=\"_blank\" rel=\"noopener\">Open the demo</a></main>'\n\t. '<script>(function(){var u=' . wp_json_encode($u) . ';try{window.top.location.replace(u);}catch(e){}'\n\t. 'setTimeout(function(){try{window.top.location.href=u;}catch(e){}},600);})();</script>'\n\t. '</body></html>';\n\texit;\n}, 0);\n"
-    }
+    { "step": "writeFile", "path": "/wordpress/index.php",
+      "data": "<?php\n$u = 'https://ogbbc-conference.vercel.app/annual-conference/';\nheader('Content-Type: text/html; charset=utf-8');\nheader('Cache-Control: no-store');\n?><!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Annual Conference</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#F3F2EB;color:#333;font:17px/1.5 Georgia,serif;text-align:center;padding:0 16px}h1{font-size:24px;font-weight:400;margin:0 0 6px}p{margin:0 0 22px;color:#555}a{display:inline-block;min-height:44px;line-height:44px;padding:0 24px;background:#C0AB85;color:#241d10;text-decoration:none;border-radius:4px;font:600 13px/44px system-ui,sans-serif;letter-spacing:1.2px;text-transform:uppercase}</style></head><body><main><h1>Annual Conference</h1><p>The demo has moved.</p><a id=\"go\" href=\"<?= htmlspecialchars($u) ?>\" target=\"_blank\" rel=\"noopener\">Open the demo</a></main><script>(function(){var u=<?= json_encode($u) ?>;try{window.top.location.replace(u);}catch(e){}setTimeout(function(){try{window.top.location.href=u;}catch(e){}},600);})();</script></body></html>\n" }
   ]
 }
