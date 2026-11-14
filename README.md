@@ -7,7 +7,7 @@ A working demo of the Annual Conference tools for ogbbc.org, built as a WordPres
 
 ## Open it
 
-**The demo has moved:** https://ogbbc-conference.vercel.app/annual-conference/
+**The demo has moved:** https://conference-rqens.ondigitalocean.app/annual-conference/
 
 The Playground link below now shows a page with an Open the demo button that goes there. The new site has everything this prototype had, and more.
 
